@@ -1,0 +1,30 @@
+{
+  "name": "fullstack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "graphql-backend.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.jsx",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pzanni/fullstack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pzanni/fullstack/issues"
+  },
+  "homepage": "https://github.com/pzanni/fullstack#readme",
+  "dependencies": {
+    "@apollo/client": "^3.4.11",
+    "@babel/preset-env": "^7.15.6",
+    "@babel/preset-react": "^7.14.5",
+    "apollo-server": "^3.3.0",
+    "graphql": "^15.5.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
